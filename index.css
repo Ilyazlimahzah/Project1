@@ -79,7 +79,7 @@ button {
   line-height: normal;
   letter-spacing: 0.2px;
 }
-.button:hover {
+button:hover {
   background-color: #16675f;
   cursor: pointer;
 }
