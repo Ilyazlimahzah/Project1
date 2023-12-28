@@ -37,7 +37,7 @@ body {
   height: -webkit-fill-available;
   background: rgba(46, 196, 182, 0.04);
   display: flex;
-height: 100vh;
+  height: 100vh;
   align-items: center;
   justify-content: center;
 }
@@ -79,6 +79,10 @@ button {
   line-height: normal;
   letter-spacing: 0.2px;
 }
+.button:hover {
+  background-color: #16675f;
+  cursor: pointer;
+}
 
 /* style placeholder for date input type  */
 input[type="date"]::-webkit-datetime-edit-text,
@@ -104,7 +108,7 @@ input[type="date"]::-webkit-datetime-edit-year-field {
   /* display: grid; */
   /* place-items: center; */
 
-z-index: 100;
+  z-index: 100;
   display: flex;
   justify-content: center;
   align-items: center;
