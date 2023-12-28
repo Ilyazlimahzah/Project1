@@ -214,6 +214,7 @@ a:link {
 }
 a:hover {
   color: #16675f;
+  transition: all;
 }
 h2 {
   color: var(--CL-Black, #000b0a);
