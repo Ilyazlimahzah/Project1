@@ -212,6 +212,9 @@ a:link {
   line-height: 25px;
   text-decoration-line: underline;
 }
+a:hover {
+  color: #16675f;
+}
 h2 {
   color: var(--CL-Black, #000b0a);
 
